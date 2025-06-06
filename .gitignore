@@ -1,0 +1,40 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment folder
+myvenv/
+venv/
+env/
+
+# Environment variables files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# SQLite or local databases
+*.sqlite3
+*.db
+
+# IDE and editor folders/files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# Docker files you don’t want to track
+docker-compose.override.yml
+
+# Distribution / build folders
+dist/
+build/
+*.egg-info/
+.eggs/
